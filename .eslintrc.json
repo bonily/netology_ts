@@ -1,0 +1,30 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "es2017": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:sonarjs/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2016,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "sonarjs"
+    ],
+    "rules": {
+        "no-console":"warn"
+    }
+}
